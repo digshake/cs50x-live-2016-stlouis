@@ -56,4 +56,4 @@ Before coming to your first day of class, you must complete Module 0 / Class 0 P
 
 ### Questions?
 
-For any additional questions, contact us at info@launchcode.org
+For any additional questions, contact us at cs50xstl@launchcode.org

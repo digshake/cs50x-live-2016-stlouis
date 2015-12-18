@@ -1,12 +1,12 @@
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 ***
-#This is LaunchCode's CS50x!
+#This is LaunchCode's CS50x St. Louis!
 
-Hello, and welcome to LaunchCode's CS50x course! This course teaches the foundations of computer science and programming using world-class curriculum and mentored support. There's a lot to learn, but before you get started, you probably have a few questions.
+Hello, and welcome to LaunchCode's CS50x St. Louis course! This course teaches the foundations of computer science and programming using world-class curriculum and mentored support. There's a lot to learn, but before you get started, you probably have a few questions.
 
 ## What is CS50x?
 
-CS50 is Harvard’s Introduction to Computer Science class for non-computer science majors. CS50x (notice the 'x') is a free online version of the class offered through edX, a MOOC (massive open online course) platform formed by Harvard and MIT. LaunchCode’s CS50x is an in-person version of CS50x with mentored support, curated content, additional exercises, and supplemental skill tracks.
+CS50 is Harvard’s Introduction to Computer Science class for non-computer science majors. CS50x (notice the 'x') is a free online version of the class offered through edX, a MOOC (massive open online course) platform formed by Harvard and MIT. LaunchCode’s CS50x St. Louis is an in-person version of CS50x with mentored support, curated content, additional exercises, and supplemental skill tracks.
 
 We’ve made the curriculum for this class available for you here on Github. The CS50x class and course materials are also available for free through edX. The curriculum here is meant to guide you through those resources. Based off our previous experience offering this class, we have compiled and ordered the resources to help you learn and digest the concepts and skills you need to know in order to succeed in this course. We’ve also developed our own additional exercises and activities that help reinforce those skills. But instead of adding extra work, these additional exercises should help you move through the problem sets and assignments more quickly.
 

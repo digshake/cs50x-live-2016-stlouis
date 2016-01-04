@@ -74,7 +74,7 @@ FILE NAMES: water.c, mario.c, greedy.c
 
 INSTRUCTIONS: Submit your assignments on Vocareum. After signing in, you will see each component as an assignment on the left. You must submit each component separately. Follow the instructions there, and make sure you name your files correctly!
 
-If you forget how to use Vocareum, please refer to the <a href="https://docs.google.com/document/d/19HIMxU_RtVV0PcGpuL71KmAoQh-KTgyPGpWWLcmwo58/edit?usp=sharing" target="_blank">Student Guide</a> section about Vocareum.
+If you forget how to use Vocareum, please refer to the <a href="https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/edit?usp=sharing" target="_blank">Student Guide</a> section about Vocareum.
 
 You may also find it useful to review the <a href="https://github.com/Launch-Code/cs50x-live-2016/blob/master/calendar/module0/materials/problem-set/README.md" target="_blank">Problem Set Page Overview from Problem Set 0</a>.
 

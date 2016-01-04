@@ -1,7 +1,6 @@
 # Course Calendar
 
-
-1. [Introduction to LaunchCode's CS50x St. Louis](../../..)
+1. [Introduction to LaunchCode's CS50x St. Louis](../../../)
 2. [How to take this class](../how-to-take-this-class)
 3. <a href="https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/edit?usp=sharing" target="_blank">Student Guide</a>
 

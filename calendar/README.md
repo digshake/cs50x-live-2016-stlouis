@@ -1,5 +1,6 @@
 # Course Calendar
 
+
 1. [Introduction to LaunchCode's CS50x St. Louis](../../..)
 2. [How to take this class](../how-to-take-this-class)
 3. <a href="https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/edit?usp=sharing" target="_blank">Student Guide</a>
@@ -12,7 +13,7 @@
 ### Unit 1: Fundamentals
 |Module | Overview |
 | :-------------: |-------------|
-| Module 1 | *Coming Soon.* You will write your first lines of code using a programming language called C. To do that, you'll be introduced to CS50's integrated development environment (or "IDE"), which is where you'll be writing code for remainder of the course. You will also dive more deeply into some of the concepts discussed in Module 0 such as loops, conditionals, variables, and functions - except using C instead of Scratch. In Problem Set 1 you will use loops to draw a picture made of `'#'` characters on the screen, and do some other problems involving basic arithmetic. |
+| [Module 1](./cs50/unit1-fundamentals/module1) | You will write your first lines of code using a programming language called C. To do that, you'll be introduced to CS50's integrated development environment (or "IDE"), which is where you'll be writing code for remainder of the course. You will also dive more deeply into some of the concepts discussed in Module 0 such as loops, conditionals, variables, and functions - except using C instead of Scratch. In Problem Set 1 you will use loops to draw a picture made of `'#'` characters on the screen, and do some other problems involving basic arithmetic. |
 | Module 2 | *Coming Soon.* Module 2 continues our whirlwind tour through the fundamental constructs of programming in C. You'll be introduced to some new data types including `chars` and `arrays`, learn more about `strings`, and learn how to write programs that accept command-line arguments.  In Problem Set 2, you will create programs to encrypt and decrypt secret messages! |
 | Module 3 | *Coming Soon.* Module 3 is all about analyzing and improving the performance of algorithms. You'll also be introduced to a beautiful and mind-bending concept called recursion. Additionally, we will go back and review some of the topics from Modules 1 and 2 to reinforce your comfort with those concepts. In Problem Set 3, you'll implement an algorithm to sort a very large list very efficiently, and another algorithm to search quickly through that list to find a "needle in the haystack".
 

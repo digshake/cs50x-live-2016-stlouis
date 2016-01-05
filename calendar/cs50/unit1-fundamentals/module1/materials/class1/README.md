@@ -6,7 +6,7 @@
 For homework you should have done: [Prep for Class 1](../class1-prep)
 
 ### During Class
-Ok, so there was a lot of information in the Prep for Class 1. During class today, we'll go over the main concepts, and try to address questions that you have. The studio for today should help reinforce those concepts. For that, you will get into teams of 3-4 and work on a program for your new imaginary donut shop. 
+Ok, so there was a lot of information in the Prep for Class 1. During class today, we'll go over the main concepts, and try to address questions that you have. The studio for today should help reinforce those concepts. For that, you will work together in pairs (or groups of 3) to write a program for an imaginary donut shop. 
 
 In class, we'll do these things:
 

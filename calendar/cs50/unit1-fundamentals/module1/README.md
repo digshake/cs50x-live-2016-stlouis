@@ -14,11 +14,11 @@ By the end of this module you will have completed [Problem Set 1](./materials/pr
 
 ### Steps
 
-Class # | Before Class | During Class | Topics/Skills
+Class # | Date | Before Class | During Class | Topics/Skills
 :--------:|:------------:|:------------:|-----------------------|
-**Class 1**| [Prep Work](./materials/class1-prep) | [In Class](./materials/class1) | CS50 IDE setup, printf, basic math |
-**Class 2**| [Prep Work](./materials/class2-prep) | [In Class](./materials/class2) | conditions, loops, variables, calling functions, nesting control flow, debugging |
-**Class 3**| Work on [Problem Set 1](./materials/problem-set) | [In Class](./materials/class3) |
+**Class 1**| 1/21/15 | [Prep Work](./materials/class1-prep) | [In Class](./materials/class1) | CS50 IDE setup, printf, basic math |
+**Class 2**| 1/26/15 | [Prep Work](./materials/class2-prep) | [In Class](./materials/class2) | conditions, loops, variables, calling functions, nesting control flow, debugging |
+**Class 3**| 1/28/15 | Work on [Problem Set 1](./materials/problem-set) | [In Class](./materials/class3) |
 
 ***
 

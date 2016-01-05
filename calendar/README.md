@@ -10,7 +10,7 @@
 | [Module 0](./module0) | 1/19/15 | This Module introduces you to CS50x and gives you the foundation you’ll need before you start programming. You will be introduced to binary counting, algorithms, and additional concepts you’ll need to begin thinking like a computer programmer. By the end of the module, you will be familiar with pseudocode, and a graphical language called Scratch, which you'll use to complete Problem Set 0. |
 
 ### Unit 1: Fundamentals
-|Module | Overview |
+|Module | Start Date | Overview |
 | :-------------: |:--------:|-------------|
 | [Module 1](./cs50/unit1-fundamentals/module1) | 1/21/15 | You will write your first lines of code using a programming language called C. To do that, you'll be introduced to CS50's integrated development environment (or "IDE"), which is where you'll be writing code for remainder of the course. You will also dive more deeply into some of the concepts discussed in Module 0 such as loops, conditionals, variables, and functions - except using C instead of Scratch. In Problem Set 1 you will use loops to draw a picture made of `'#'` characters on the screen, and do some other problems involving basic arithmetic. |
 | Module 2 | 2/2/15 | *Coming Soon.* Module 2 continues our whirlwind tour through the fundamental constructs of programming in C. You'll be introduced to some new data types including `chars` and `arrays`, learn more about `strings`, and learn how to write programs that accept command-line arguments.  In Problem Set 2, you will create programs to encrypt and decrypt secret messages! |

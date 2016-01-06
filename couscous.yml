@@ -1,0 +1,19 @@
+template:
+    url: https://github.com/digshake/Template-ReadTheDocs
+# Base URL of the published website
+baseUrl: http://digshake.github.io/cs50x-live-2016-stlouis
+
+# Used to link to the GitHub project
+github:
+    user: digshake 
+    repo: cs50x-live-2016-stlouis 
+
+title: LaunchCode's CS50x - St. Louis 
+
+# The left menu bar
+menu:
+    items:
+        home:
+            text: Calendar 
+            # You can use relative urls
+            relativeUrl: calendar/ 

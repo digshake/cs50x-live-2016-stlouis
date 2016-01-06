@@ -1,5 +1,5 @@
 template:
-    url: https://github.com/digshake/Template-ReadTheDocs
+    url: https://github.com/digshake/Template-Light
 # Base URL of the published website
 baseUrl: http://digshake.github.io/cs50x-live-2016-stlouis
 

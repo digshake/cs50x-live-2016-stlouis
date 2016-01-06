@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaunchCode&#039;s CS50x - St. Louis</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Roboto+Slab:400,700|Inconsolata:400,700&subset=latin,cyrillic'
+          rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="http://digshake.github.io/cs50x-live-2016-stlouis/css/theme.css" type="text/css"/>
+    <link rel="stylesheet" href="http://digshake.github.io/cs50x-live-2016-stlouis/css/theme-fixes.css" type="text/css"/>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
+</head>
+<body class="wy-body-for-nav">
+
+    <div class="wy-grid-for-nav">
+
+        <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+            <div class="wy-side-nav-search">
+                <a href="http://digshake.github.io/cs50x-live-2016-stlouis/" class="fa fa-home"> LaunchCode&#039;s CS50x - St. Louis</a>
+            </div>
+
+            <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                                            <li class="toctree-l1 ">
+                            <a class="reference internal "
+                               href="http://digshake.github.io/cs50x-live-2016-stlouis/calendar/">
+                                Calendar
+                            </a>
+                        </li>
+                                    </ul>
+            </div>
+            &nbsp;
+        </nav>
+
+        <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+                        <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+                <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+                <a href="http://digshake.github.io/cs50x-live-2016-stlouis/">LaunchCode&#039;s CS50x - St. Louis</a>
+            </nav>
+
+
+                        <div class="wy-nav-content">
+                <div class="rst-content">
+                    <div role="main" class="document">
+                        <h1 id="escape-sequences">Escape Sequences</h1>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Escape Character Notation</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong><code>\n</code></strong></td>
+<td style="text-align: left;">New Line</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong><code>\r</code></strong></td>
+<td style="text-align: left;">Return</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong><code>\t</code></strong></td>
+<td style="text-align: left;">Tab</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong><code>\'</code></strong></td>
+<td style="text-align: left;">Single Quote</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong><code>\"</code></strong></td>
+<td style="text-align: left;">Double Quote</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong><code>\\</code></strong></td>
+<td style="text-align: left;">Back Slash</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong><code>\0</code></strong></td>
+<td style="text-align: left;">ASCII Value Zero</td>
+</tr>
+</tbody>
+</table>
+<h1 id="format-codes">Format Codes</h1>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Format Code Notation</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong><code>%s</code></strong></td>
+<td style="text-align: left;">String</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong><code>%c</code></strong></td>
+<td style="text-align: left;">Char</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong><code>%i</code></strong> or <strong><code>%d</code></strong></td>
+<td style="text-align: left;">Integer</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong><code>%f</code></strong></td>
+<td style="text-align: left;">Float</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong><code>%g</code></strong></td>
+<td style="text-align: left;">Double</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong><code>%lld</code></strong></td>
+<td style="text-align: left;">Long Long Double</td>
+</tr>
+</tbody>
+</table>
+<h1 id="precedence">Precedence</h1>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Order of Precedence</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong><code>( )</code></strong></td>
+<td style="text-align: left;">Parenthesis</td>
+</tr>
+<tr>
+<td style="text-align: center;">*<em>`</em><code>** **</code>/`**</td>
+<td style="text-align: left;">Multiplication Division <br> (Solve the equation from left to right because there is equal priority for both.)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong><code>+</code></strong> <strong><code>-</code></strong></td>
+<td style="text-align: left;">Addition Subtraction <br> (Solve the equation from left to right because there is equal priority for both.)</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Notation</th>
+<th style="text-align: center;">Name</th>
+<th style="text-align: left;">Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong><code>++count</code></strong></td>
+<td style="text-align: center;">Prefix Increment</td>
+<td style="text-align: left;">The value is incremented first and then it is used in the expression.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong><code>--count</code></strong></td>
+<td style="text-align: center;">Prefix Decrement</td>
+<td style="text-align: left;">The value is decremented first and then it is used in the expression.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong><code>count++</code></strong></td>
+<td style="text-align: center;">Postfix (Suffix) Increment</td>
+<td style="text-align: left;">The current value of <code>count</code> is used in the expression and then it is incremented. <br> The value will only be different the next time the value is used.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong><code>count--</code></strong></td>
+<td style="text-align: center;">Postfix Decrement</td>
+<td style="text-align: left;">The current value is used in the expression and then it is decremented.</td>
+</tr>
+</tbody>
+</table>
+<h1 id="data-types-and-variables">Data Types and Variables</h1>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Data Type</th>
+<th style="text-align: left;">Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong><code>int</code></strong></td>
+<td style="text-align: left;">Used for variables to store Integers. <br> <b>Range: 4 bytes of memory or 32 bits ( -2<sup>31</sup> to 2<sup>31-1 </sup>)</b></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong><code>unsigned</code> <code>int</code></strong></td>
+<td style="text-align: left;"><strong><code>unsigned</code></strong> is a qualifier and can be used with different data types. <br> If you use it there will be not be any negative values in the range. <br> The amount of positive values will be doubled. <br> <b>Range: ( 0<sup>31</sup> to 2<sup>32-1 </sup>)</b></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong><code>char</code></strong></td>
+<td style="text-align: left;">Used for variables to store single characters. <br> <b>Range: 1 byte of memory or 8 bits ( -128 to 127 )</b></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong><code>float</code></strong></td>
+<td style="text-align: left;">Used for variables to store floating point values (Real Numbers). <br> <b>Range: 4 bytes of memory or 32 bits </b></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong><code>double</code></strong></td>
+<td style="text-align: left;">Used for variables to store floating point values (Real Numbers). <br> <b>Range: 8 bytes of memory or 64 bits </b></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong><code>void</code></strong></td>
+<td style="text-align: left;">It is a <strong>TYPE</strong> and <strong>NOT A DATA TYPE</strong>. Used for function return types (the function doesn't return a value) or as a parameter of a function (the function takes no parameters).</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong><code>bool</code></strong></td>
+<td style="text-align: left;"><strong>You must include the cs50 library to use this data type.</strong> <br><code>#include &lt;cs50.h&gt;</code> <br>Used for variables to store boolean values (true or false).</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong><code>string</code></strong></td>
+<td style="text-align: left;"><strong>You must include the cs50 library to use this data type.</strong> <br><code>#include &lt;cs50.h&gt;</code> <br>Used for variables to store a series of characters. (words, sentences, paragraphs, etc.)</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Variable Statement</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong><code>int x;</code></strong></td>
+<td style="text-align: left;">Declares the variable <code>x</code> with the datatype Integer. (but <code>x</code> does not yet have a value)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong><code>x = 4;</code></strong></td>
+<td style="text-align: left;">Assigns the value <code>4</code> to the variable <code>x</code>. (make sure <code>x</code> has already been declared before you do this!)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong><code>int x = 4;</code></strong></td>
+<td style="text-align: left;">Performs both steps in one line: initializes the variable <code>x</code> with the datatype Integer and assigns the value <code>4</code> to the variable <code>x</code>.</td>
+</tr>
+</tbody>
+</table>
+<h1 id="operators">Operators</h1>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Description</th>
+<th style="text-align: center;">Compound Operator</th>
+<th style="text-align: center;">Compound Assignment</th>
+<th style="text-align: center;">Equivalent To</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Addition</td>
+<td style="text-align: center;"><strong><code>+=</code></strong></td>
+<td style="text-align: center;"><code>x += 4</code></td>
+<td style="text-align: center;"><code>x = x + 4</code></td>
+</tr>
+<tr>
+<td style="text-align: center;">Subtraction</td>
+<td style="text-align: center;"><strong><code>-=</code></strong></td>
+<td style="text-align: center;"><code>x -= 4</code></td>
+<td style="text-align: center;"><code>x = x - 4</code></td>
+</tr>
+<tr>
+<td style="text-align: center;">Multiplication</td>
+<td style="text-align: center;">*<em>`</em>=`**</td>
+<td style="text-align: center;"><code>x *= 4</code></td>
+<td style="text-align: center;"><code>x = x * 4</code></td>
+</tr>
+<tr>
+<td style="text-align: center;">Division</td>
+<td style="text-align: center;"><strong><code>/=</code></strong></td>
+<td style="text-align: center;"><code>x /= 4</code></td>
+<td style="text-align: center;"><code>x = x / 4</code></td>
+</tr>
+<tr>
+<td style="text-align: center;">Modulo (Remainder)</td>
+<td style="text-align: center;"><strong><code>%=</code></strong></td>
+<td style="text-align: center;"><code>x %= 4</code></td>
+<td style="text-align: center;"><code>x = x % 4</code></td>
+</tr>
+</tbody>
+</table>
+<h5 id="boolean-expressions">Boolean Expressions</h5>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Relational Operators</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><code>==</code></td>
+<td style="text-align: center;">Equality</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>!=</code></td>
+<td style="text-align: center;">Inequality</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>&lt;</code></td>
+<td style="text-align: center;">Less Than</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>&gt;</code></td>
+<td style="text-align: center;">Greater Than</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>&lt;=</code></td>
+<td style="text-align: center;">Greater Than or Equal To</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>&gt;=</code></td>
+<td style="text-align: center;">Less Than or Equal To</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Logical Operators</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><code>&amp;&amp;</code></td>
+<td style="text-align: center;">AND</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>||</code></td>
+<td style="text-align: center;">OR</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>!</code></td>
+<td style="text-align: center;">NOT</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">x</th>
+<th style="text-align: center;">y</th>
+<th style="text-align: center;">( x AND y)</th>
+<th style="text-align: center;">( x OR y)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">True</td>
+<td style="text-align: center;">True</td>
+<td style="text-align: center;">True</td>
+<td style="text-align: center;">True</td>
+</tr>
+<tr>
+<td style="text-align: center;">True</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">True</td>
+</tr>
+<tr>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">True</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">True</td>
+</tr>
+<tr>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+<td style="text-align: center;">False</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">x</th>
+<th style="text-align: center;">x!</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">True</td>
+<td style="text-align: center;">False</td>
+</tr>
+<tr>
+<td style="text-align: left;">False</td>
+<td style="text-align: center;">True</td>
+</tr>
+</tbody>
+</table>
+<h1 id="loops">Loops</h1>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Structure</th>
+<th style="text-align: left;">Example</th>
+<th style="text-align: center;">Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">while</td>
+<td style="text-align: left;"><code>while( condition )</code> <br> <code>{</code> <br> &nbsp;&nbsp; <code>statement(s);</code> <br> <code>}</code></td>
+<td style="text-align: left;"><code>while( i &lt; 4 )</code> <br> <code>{</code> <br> &nbsp;&nbsp; <code>printf("%i", i);</code> <br> <code>}</code></td>
+<td style="text-align: center;">If <code>i = 1</code> the loop will print <code>1 2 3</code> and then terminate.</td>
+</tr>
+<tr>
+<td style="text-align: left;">do while</td>
+<td style="text-align: left;"><code>do</code> <br> <code>{</code> <br> &nbsp;&nbsp; <code>statement(s);</code> <br> <code>}</code> <br> <code>while( condition )</code></td>
+<td style="text-align: left;"><code>do</code> <br> <code>{</code> <br> &nbsp;&nbsp; <code>printf("Positive Number: ");</code> <br> &nbsp;&nbsp; <code>n = GetInt()</code> <br> <code>}</code> <br> <code>while( i &lt; 1 )</code></td>
+<td style="text-align: center;">The user will be continuously <br> prompted until they enter a positive number. <br> The loop will terminate when the user enters a number greater than 0</td>
+</tr>
+<tr>
+<td style="text-align: left;">for</td>
+<td style="text-align: left;"><code>for ( init; condition; iteration)</code> <br> <code>{</code> <br> &nbsp;&nbsp; <code>statement(s);</code> <br> <code>}</code></td>
+<td style="text-align: left;"><code>for ( int i = 1; i &lt; 4; i++)</code> <br> <code>{</code> <br> &nbsp;&nbsp; <code>printf("%i", i);</code> <br> <code>}</code></td>
+<td style="text-align: center;"><code>i</code> is initialized to 1 and will continue to <br> execute the statements until <code>i = 3</code>. <br> <code>i++</code> increments the variable <code>i</code> for each iteration of the loop. <br> The loop will print <code>1 2 3</code> and terminate.</td>
+</tr>
+</tbody>
+</table>
+<h1 id="functions">Functions</h1>
+<p>Some functions do not take any inputs and in that case you would declare a <code>void</code> argument list. Remember this?</p>
+<pre><code class="language-c">int main(void)</code></pre>
+<p>Some functions do not have any outputs and in that case you would declare the function as having a <code>void</code> return-type.</p>
+<p>Example:</p>
+<pre><code class="language-c">#include &lt;stdio.h&gt;
+
+void print_age(int age);
+
+int main(void)
+{
+    print_age(5);
+}
+
+void print_age(int age)
+{
+  printf("You are %i years old.\n", age);  
+}</code></pre>
+<p>Output:</p>
+<pre><code>$ You are 5 years old.</code></pre>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Function Type</th>
+<th style="text-align: left;">Description</th>
+<th style="text-align: left;">Notation</th>
+<th style="text-align: left;">Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Declaration</td>
+<td style="text-align: left;">The declaration should always <br>be on top of your code <br>right above the main method. <br>This lets the compiler know <br>that there will be a <br>user-defined function in the code.</td>
+<td style="text-align: left;"><strong><code>return-type</code></strong> <strong><code>name(argument list);</code></strong></td>
+<td style="text-align: left;"><strong><code>int</code></strong> <strong><code>add_two_ints(int a, int b);</code></strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">Definition</td>
+<td style="text-align: left;">Almost identical to a declaration, <br>but you will replace the semicolon <br>with <strong><code>{ }</code></strong> and code in between.<br>The definition must be outside <br> of the main method and <br> after the declaration.</td>
+<td style="text-align: left;"><strong><code>return-type</code></strong> <strong><code>name(argument list)</code></strong> <br> <strong><code>{</code></strong> <br> &nbsp;&nbsp;&nbsp; <strong><code>// Some code</code></strong> <br> <strong><code>}</code></strong></td>
+<td style="text-align: left;"><strong><code>int</code></strong> <strong><code>add_two_ints(int a, int b)</code></strong> <br> <strong><code>{</code></strong> <br> &nbsp;&nbsp;&nbsp;<strong><code>int sum;</code></strong> <br> &nbsp;&nbsp;&nbsp;<strong><code>sum = a + b;</code></strong> <br> &nbsp;&nbsp;&nbsp;<strong><code>return sum;</code></strong> <br> <strong><code>}</code></strong>.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Calling</td>
+<td style="text-align: left;">You can call the function <br>by inserting the appropriate <br>inputs. In the example <br> x and y are two ints that <br> have already been initialized.<br>The value returned from the <br>function is stored in <br> the variable z.</td>
+<td style="text-align: left;"><strong><code>name(input list);</code></strong></td>
+<td style="text-align: left;"><strong><code>int z =</code></strong> <strong><code>add_two_ints(x, y);</code></strong></td>
+</tr>
+</tbody>
+</table>
+                    </div>
+
+                    <footer>
+                        <hr/>
+                                                    <div role="contentinfo">
+                                <p>
+                                    Find LaunchCode&#039;s CS50x - St. Louis on <a href="https://github.com/digshake/cs50x-live-2016-stlouis">GitHub</a>.
+                                </p>
+                            </div>
+                                                Built with <a href="http://couscous.io/">Couscous</a> using a <a href="https://github.com/CouscousPHP/Template-ReadTheDocs">theme</a> based on <a href="https://readthedocs.org/">Read the Docs</a>.
+                    </footer>
+
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+    <script src="http://digshake.github.io/cs50x-live-2016-stlouis/js/theme.js"></script>
+
+    <script>
+        $(function() {
+            // Syntax highlighting
+            hljs.initHighlightingOnLoad();
+        });
+    </script>
+
+</body>
+</html>

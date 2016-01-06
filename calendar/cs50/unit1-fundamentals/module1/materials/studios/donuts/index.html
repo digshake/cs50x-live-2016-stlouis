@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaunchCode&#039;s CS50x - St. Louis</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Roboto+Slab:400,700|Inconsolata:400,700&subset=latin,cyrillic'
+          rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="http://digshake.github.io/cs50x-live-2016-stlouis/css/theme.css" type="text/css"/>
+    <link rel="stylesheet" href="http://digshake.github.io/cs50x-live-2016-stlouis/css/theme-fixes.css" type="text/css"/>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
+</head>
+<body class="wy-body-for-nav">
+
+    <div class="wy-grid-for-nav">
+
+        <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+            <div class="wy-side-nav-search">
+                <a href="http://digshake.github.io/cs50x-live-2016-stlouis/" class="fa fa-home"> LaunchCode&#039;s CS50x - St. Louis</a>
+            </div>
+
+            <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                                            <li class="toctree-l1 ">
+                            <a class="reference internal "
+                               href="http://digshake.github.io/cs50x-live-2016-stlouis/calendar/">
+                                Calendar
+                            </a>
+                        </li>
+                                    </ul>
+            </div>
+            &nbsp;
+        </nav>
+
+        <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+                        <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+                <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+                <a href="http://digshake.github.io/cs50x-live-2016-stlouis/">LaunchCode&#039;s CS50x - St. Louis</a>
+            </nav>
+
+
+                        <div class="wy-nav-content">
+                <div class="rst-content">
+                    <div role="main" class="document">
+                        <h5 id="module-1">Module 1</h5>
+<p><a href="../../class1">Back to Class 1</a></p>
+<h1 id="studio-donuts">Studio: Donuts</h1>
+<p>You run a hip donut shop, the Loop Hole, which, in its short lifetime, has already rocked the donut market with
+numerous disruptions, including:</p>
+<ul>
+<li>a minimalist menu consisting of just one type of donut per day: Manager's Special... always Manager's Special.</li>
+<li>giving consumers the option to order fractional amounts of donuts, e.g. 1.7 donuts, please.</li>
+<li>a progressive pay-what-you-want pricing system, in which the customer pays what s/he thinks is a fair price. (Of
+course, you do provide a &quot;suggested price&quot;.)</li>
+</ul>
+<p>Now it's time to implement your latest innovation, an app via which users can pre-order donuts remotely from the
+convenience of... the command-line terminal on their computer.</p>
+<p>In a file called <code>donuts.c</code>, write a program which introduces the flavor of the day, and then takes
+the user's order. Taking their order involves asking two questions: &quot;How many donuts?&quot; and &quot;How much do you want to pay?&quot;</p>
+<p>Finally, inform the user of the total cost of their order. Don't forget to include sales-tax, which is, let's say, 5%.</p>
+<p>Here's an example of how the finished program should behave:</p>
+<pre><code>$ ./donuts
+Welcome to the Loop Hole!
+Today's Manager's Special is:
+Crunch Jelly: A traditional jelly donut in which the jelly filling is made entirely of Capn' Crunch Berries (Just Berries)
+How many would you like? 3.33333
+How much would you like to pay per donut (suggested price is $4.35 each)? 2.5
+Ok, let me prepare that for you....
+After tax, your total is: $8.74999125
+Thank you for snacking! Loop back around here soon!</code></pre>
+<p>Notice that the total price <code>$8.74999125</code> went way beyond 2 decimal places. Obviously it would be better to
+round that to $8.75. Later in this module, you'll be introduced to a function called <code>round</code> which will allow
+you to do just that. But for now, don't worry about it.</p>
+<p>Also, don't be concerned if your program gives an answer with a <em>slightly</em> different number of decimal places than the example program above. This is just a precision issue.</p>
+<p>*You can grab a copy of these instructions from the CS50x Wiki <a href="../../../../../../../helpful-resources/modules/module-1.md#class-1-studio-donuts" target="_blank">here</a>.  They are formatted as comments so that you can put it at the top of your program in the CS50 IDE.  Remember the compiler ignores any comments, so this won't affect your program! You can start writing your code right after the comments. </p>
+<h3 id="how-to-submit">How to Submit</h3>
+<p>For detailed instructions on how to submit this Studio, see the Wiki page on Submitting Assignments.</p>
+                    </div>
+
+                    <footer>
+                        <hr/>
+                                                    <div role="contentinfo">
+                                <p>
+                                    Find LaunchCode&#039;s CS50x - St. Louis on <a href="https://github.com/digshake/cs50x-live-2016-stlouis">GitHub</a>.
+                                </p>
+                            </div>
+                                                Built with <a href="http://couscous.io/">Couscous</a> using a <a href="https://github.com/CouscousPHP/Template-ReadTheDocs">theme</a> based on <a href="https://readthedocs.org/">Read the Docs</a>.
+                    </footer>
+
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+    <script src="http://digshake.github.io/cs50x-live-2016-stlouis/js/theme.js"></script>
+
+    <script>
+        $(function() {
+            // Syntax highlighting
+            hljs.initHighlightingOnLoad();
+        });
+    </script>
+
+</body>
+</html>

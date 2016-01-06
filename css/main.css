@@ -12,6 +12,13 @@ body {
     }
 }
 
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
 main {
     margin-top: 90px;
 }
@@ -61,7 +68,7 @@ header.navbar {
 }
 .navbar .navbar-brand {
     font-size: 28px;
-    height: auto;
+    height: 50px;
     line-height: 40px;
     margin-left: 20px;
 }

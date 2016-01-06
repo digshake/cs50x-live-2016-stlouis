@@ -13,7 +13,16 @@ title: LaunchCode's CS50x - St. Louis
 # The left menu bar
 menu:
     items:
-        home:
+        calendar:
             text: Calendar 
             # You can use relative urls
             relativeUrl: calendar/ 
+		studentguide:
+			text: Student Guide
+			absoluteUrl: https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/edit?usp=sharing
+		helpfulresources:
+			text: Helpful Resources
+			relativeUrl: helpful-resources/
+		howtotake:
+			text: How To Take This Class
+			relativeUrl: how-to-take-this-class/

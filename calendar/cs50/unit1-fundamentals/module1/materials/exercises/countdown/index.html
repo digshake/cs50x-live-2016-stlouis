@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title></title>
+
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/css/highlight.dark.css">
+        <link rel="stylesheet" href="/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="/">
+                The title
+                <small class="hidden-xs hidden-sm">
+                    This is the default subtitle!
+                </small>
+            </a>
+
+            
+        </header>
+
+        <main class="container">
+            <div class="row">
+
+                
+                <section id="content" class="col-sm-12">
+                    <h5 id="module-1">Module 1</h5>
+<p><a href="../../class2-prep">Go back to Prep for Class 2</a></p>
+<h1 id="exercise-countdown">Exercise: Countdown</h1>
+<p>In a file called <code>countdown.c</code> write a program that performs an epic countdown from a user-specified integer:</p>
+<pre><code>$ ./countdown
+Count down from: 3
+3...
+2...
+1...
+BLAST OFF!</code></pre>
+<pre><code>$ ./countdown
+Count down from: 5
+5...
+4...
+3...
+2...
+1...
+BLAST OFF!</code></pre>
+<pre><code>$ ./countdown
+Count down from: 0
+BLAST OFF!</code></pre>
+<p>Watch out for negative numbers! If the user gives you a negative number, you should continue prompting until they
+behave more responsibly: </p>
+<pre><code>$ ./countdown
+Count down from: -2
+Count down from: -32
+Count down from: 3
+3...
+2...
+1...
+BLAST OFF!</code></pre>
+<p>Or optionally, you can implement the program such that whenever receiving a negative number, it counts <strong>up</strong> rather than down:</p>
+<pre><code>$ ./countdown
+Count down from: -2
+-2...
+-1...
+BLAST OFF!</code></pre>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container">
+                <p class="text-muted">
+                    website generated with <a href="http://couscous.io" title="Markdown website generator">Couscous</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>

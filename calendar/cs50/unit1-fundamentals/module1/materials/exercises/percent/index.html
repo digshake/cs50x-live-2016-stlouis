@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title></title>
+
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/css/highlight.dark.css">
+        <link rel="stylesheet" href="/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="/">
+                The title
+                <small class="hidden-xs hidden-sm">
+                    This is the default subtitle!
+                </small>
+            </a>
+
+            
+        </header>
+
+        <main class="container">
+            <div class="row">
+
+                
+                <section id="content" class="col-sm-12">
+                    <h5 id="module-1">Module 1</h5>
+<p><a href="../../class1-prep">Go back to Prep for Class 1</a></p>
+<h1 id="exercise-percent">Exercise: Percent</h1>
+<p>In a file called <code>percent.c</code> write a program that asks the user for two floating-point numbers, and then computes the ratio between them as a percent.</p>
+<p>For example:</p>
+<pre><code>$ ./percent 
+float please: 0.5
+float please: 2
+25.000000 percent</code></pre>
+<pre><code>$ ./percent 
+float please: 3
+float please: 2
+150.000000 percent</code></pre>
+<pre><code>$ ./percent 
+float please: 1
+float please: 1.5
+66.666664 percent</code></pre>
+<p>Notice how because of the inherent imprecision of floating point numbers, that last value is slightly wrong.
+Should be <code>66.666667 percent</code></p>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container">
+                <p class="text-muted">
+                    website generated with <a href="http://couscous.io" title="Markdown website generator">Couscous</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>

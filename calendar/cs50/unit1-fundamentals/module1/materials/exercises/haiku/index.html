@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title></title>
+
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/css/highlight.dark.css">
+        <link rel="stylesheet" href="/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="/">
+                The title
+                <small class="hidden-xs hidden-sm">
+                    This is the default subtitle!
+                </small>
+            </a>
+
+            
+        </header>
+
+        <main class="container">
+            <div class="row">
+
+                
+                <section id="content" class="col-sm-12">
+                    <h5 id="module-1">Module 1</h5>
+<p><a href="../../class1-prep">Go back to Prep for Class 1</a></p>
+<h1 id="exercise-haiku">Exercise: Haiku</h1>
+<h3 id="setting-up">Setting up</h3>
+<p>Navigate into <code>module1/exercises</code> and make a new folder called <code>/haiku</code>:</p>
+<pre><code>$ cd ~/workspace/module1/exercises
+$ mkdir haiku
+$ ls
+haiku/  hello/</code></pre>
+<p>In that folder, create a file called <code>haiku.c</code>:</p>
+<pre><code>$ cd haiku
+$ touch haiku.c</code></pre>
+<p>In general, you should always repeat this same process when completing an exercise:</p>
+<ol>
+<li>Navigate to the <code>exercises/</code> folder within the correct Module folder</li>
+<li>Make a subfolder with the name of the current exercise</li>
+<li>Navigate into that subfolder and create the file(s) you need for the exercise</li>
+</ol>
+<p>If lost, or your folders don't look right, remember that you can find detailed instructions for setting up your workspace over on the Wiki, on the <a href="../../../../../../../helpful-resources/CS50-IDE/file-management-resource.md" target="_blank">File Management Resource</a> page.</p>
+<h3 id="what-to-do">What to do</h3>
+<p>Open up <code>haiku.c</code>, and write a program that prints a 3-line Haiku to the console, like this:</p>
+<pre><code>$ ./haiku
+Learning how to code
+is a thing I like to do
+more often than not</code></pre>
+<p>Make up your own haiku, if feeling creative.</p>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container">
+                <p class="text-muted">
+                    website generated with <a href="http://couscous.io" title="Markdown website generator">Couscous</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>

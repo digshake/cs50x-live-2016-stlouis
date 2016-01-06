@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title></title>
+
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/css/highlight.dark.css">
+        <link rel="stylesheet" href="/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="/">
+                The title
+                <small class="hidden-xs hidden-sm">
+                    This is the default subtitle!
+                </small>
+            </a>
+
+            
+        </header>
+
+        <main class="container">
+            <div class="row">
+
+                
+                <section id="content" class="col-sm-12">
+                    <h5 id="module-1">Module 1</h5>
+<p><a href="../../class2-prep">Go back to Prep for Class 2</a></p>
+<h1 id="exercise-debug">Exercise: Debug</h1>
+<p>This exercise doesn't involve writing any code. </p>
+<p>Instead, we'll have you step through some pre-written code using the Debugger, just to get comfortable with it.</p>
+<p>And as a bonus, it's quite possible that the proccess of stepping through these examples and
+watching what happens might inadvertently help clear up some lingering confusion
+you might have accumulated over the course of learning so many new concepts in such a short time span.</p>
+<h4 id="instructions">Instructions:</h4>
+<ol>
+<li>In your IDE, navigate to the place where you normally do exercises. (TODO, more specific?)</li>
+<li>
+<p>Instead of creating a new <code>.c</code> file like you normally do, download all of the official source code
+from Week 1 by running the following commands in your terminal:</p>
+<pre><code>$ wget http://cdn.cs50.net/2015/fall/lectures/1/w/src1w.zip
+$ wget http://cdn.cs50.net/2015/fall/lectures/1/f/src1f.zip
+$ unzip src1w.zip 
+$ unzip src1f.zip
+$ rm -f src1w.zip src1f.zip
+$ ls</code></pre>
+</li>
+<li>You should now have two new folders, <code>src1w/</code> and <code>src1f/</code>. If you look inside, you should see
+a bunch of .c files!</li>
+<li>You might notice that the names of some of them look familiar. Indeed, these are the same programs you
+have been creating by following-along with David Malan's Walkthrough videos.</li>
+<li>Now the fun part: 
+<ol>
+<li>Open up <code>adder.c</code> (located in the src1w folder)</li>
+<li>Add a breakpoint (little red dot) on line 17 (this should be the first line inside of <code>main</code>) by clicking to the left of the number 17</li>
+<li>Run the program through the debugger by clicking the green <code>Debug</code> button at the top of the IDE.</li>
+<li>You should see that the program is paused at line 17. Advance to the next line by clicking the <code>Step Over</code>
+icon in the top right (next to the blue <code>Play / Pause</code> icon). </li>
+<li>Continue stepping over each line and observe the changing values of variables in the right-hand panel.</li>
+<li>A couple times, you'll have to go back to the terminal and enter an integer, because the program is expecting
+an integer from the user</li>
+<li>Hopefully this is giving you a more tangible feel for what happens when <code>adder</code> executes.
+Feel free to tinker with the program and run it again.</li>
+</ol></li>
+<li>
+<p>Repeat this process for each of the following source files:</p>
+<ul>
+<li><code>src1w/conditions-1.c</code> </li>
+<li><code>src1w/hello-1.c</code> </li>
+<li><code>src1w/hello-2.c</code> </li>
+<li><code>src1w/nonswitch.c</code></li>
+<li><code>src1f/f2c.c</code></li>
+<li><code>src1w/thadgavin.c</code> (if you dare!)</li>
+</ul>
+<p>Note that some of the files require user input. So, you'll have to switch back and forth between two roles: one of the user, and one of the debugger. </p>
+</li>
+</ol>
+<p>Finally, note that you can place more than one breakpoint, and you can place them wherever you like. In the above example we placed it on the first line inside the main function; you can do that if you want, but you don't have to! Just poke around wherever your nose leads you.</p>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container">
+                <p class="text-muted">
+                    website generated with <a href="http://couscous.io" title="Markdown website generator">Couscous</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>

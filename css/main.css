@@ -68,7 +68,11 @@ header.navbar {
 }
 .navbar .navbar-brand {
     font-size: 28px;
+<<<<<<< HEAD
     height: 50px;
+=======
+    height: auto;
+>>>>>>> origin/gh-pages
     line-height: 40px;
     margin-left: 20px;
 }

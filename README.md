@@ -1,5 +1,4 @@
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
-***
+
 #This is LaunchCode's CS50x St. Louis!
 
 Hello, and welcome to LaunchCode's CS50x St. Louis course! This course teaches the foundations of computer science and programming using world-class curriculum and mentored support. There's a lot to learn, but before you get started, you probably have a few questions.
@@ -28,3 +27,7 @@ Next, you can follow the link here to review some details on how to understand t
 After you do that, you'll be ready to begin learning. You'll be working through the course calendar (which we recommend you bookmark): [Course Calendar](./calendar)
 
 You can also check out the <a href="https://github.com/Launch-Code/cs50x-live-2016/wiki" target="_blank">CS50x Wiki</a> for additional resources and important links for the course by clicking the **`Wiki`** tab underneath the repo name at the top of any page. 
+
+***
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.

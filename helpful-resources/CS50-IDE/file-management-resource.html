@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>LaunchCode&#039;s CS50x - St. Louis</title>
+
+        <link rel="stylesheet" href="http://digshake.github.io/cs50x-live-2016-stlouis/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://digshake.github.io/cs50x-live-2016-stlouis/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://digshake.github.io/cs50x-live-2016-stlouis/css/highlight.dark.css">
+        <link rel="stylesheet" href="http://digshake.github.io/cs50x-live-2016-stlouis/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="http://digshake.github.io/cs50x-live-2016-stlouis/">
+                LaunchCode&#039;s CS50x - St. Louis
+            </a>
+
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                        <ul class="nav nav-pills nav-stacked">
+                                                            <li class="">
+                                    <a href="http://digshake.github.io/cs50x-live-2016-stlouis/calendar/">
+                                        Calendar
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/edit?usp=sharing">
+                                        Student Guide
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://digshake.github.io/cs50x-live-2016-stlouis/helpful-resources/">
+                                        Helpful Resources
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://digshake.github.io/cs50x-live-2016-stlouis/how-to-take-this-class/">
+                                        How To Take This Class
+                                    </a>
+                                </li>
+                                                    </ul>
+
+                    </nav>
+
+                
+                <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
+                    <h1 id="how-to-structure-your-workspace-in-the-cs50-ide">How to structure your workspace in the CS50 IDE</h1>
+<p>You will be introduced to the CS50 IDE in Module 1, so if you haven't reached there yet, don't worry, there will be instructions on how to use the CS50 IDE.</p>
+<h4 id="directory-structure">Directory Structure</h4>
+<p>When you begin to write your programs using the CS50 IDE, you will want a good way to keep your work organized.  We have a specific format that we suggest you to use for creating directories (folders) to save your programs (files) in. Specific instructions for how to set everything up are provided <a href="#setting-up-the-directory-tree">below</a>.</p>
+<p>There will be a directory in your home folder called <code>~/workspace/</code> (though you might also see it named <code>~/ide50/</code>). This is where all your work should go. Inside <code>~/workspace/</code>, you should have one folder for each Problem Set, and one folder for each Module.</p>
+<p>Within each module folder there will be 4 sub-folders: one each for exercises, followalongs, misc and studios. Within each of those sub-folders (exercises, followalongs, misc, studios) you will also create a folder for each program you write. Examples for each are listed below.</p>
+<p>As you get further into the course your programs will become more complex.  You may have additional files that will need to be grouped together in the same folder for a single program.  Don't worry about this now, you'll learn more about this later on. </p>
+<h5 id="exercises">Exercises</h5>
+<p>Exercises are not the only task that may need to have files grouped as you will see below.</p>
+<pre><code>|---- /module1
+      |---- /exercises
+            |---- /haiku
+                  |---- haiku.c
+            |---- /largerprogram
+                  |---- largerprogram.c
+                  |---- additionalfile.c
+                  |---- additionalfile.h</code></pre>
+<h5 id="follow-alongs">Follow Alongs</h5>
+<p>For some of the follow alongs, you will notice that the name will end in a hyphen and number (IE: hello-0).  These tasks are similar to one another and should be grouped together in the same folder named after the follow along (excluding the hyphen and number).</p>
+<pre><code>|---- /module1
+      |---- /followalongs
+            |---- /hello
+                  |---- hello-0.c
+                  |---- hello-1.c</code></pre>
+<h5 id="misc">Misc</h5>
+<p>The <strong><code>misc</code></strong> folder will hold any other programs that you complete during the module that are not an exercise, followalong, Studio or Problem Set.</p>
+<pre><code>|---- /module1
+      |---- /misc
+            |---- /examplefromlecture
+                  |---- examplefromlecture.c</code></pre>
+<h5 id="studios">Studios</h5>
+<p>Some of your Studios will have multiple parts that require creating new programs.  You will create a folder within the studios folder of the corresponding module that is the same as the name of the Studio. Then you will save all of the programs created for that Studio in the same folder.</p>
+<pre><code>|---- /module1
+      |---- /studios
+            |---- /donuts
+                  |---- donuts.c
+            |---- /guess
+                  |---- guess.c
+                  |---- guess5.c
+                  |---- guessfive.c</code></pre>
+<h4 id="setting-up-the-directory-tree">Setting Up The Directory Tree</h4>
+<ol>
+<li>Open up your CS50 IDE and log in.</li>
+<li>Inside the IDE, open up a new Terminal Window by clicking the little green plus sign at the bottom of the screen.</li>
+<li>
+<p>Inside the terminal, make a new directory called <code>/module1</code>, and within that, a directory called <code>/exercises</code>:</p>
+<pre><code>$ mkdir module1
+$ mkdir module1/exercises</code></pre>
+<p>NOTE: Don't type the dollar sign <code>$</code>. That's just a convention for specifying that the example is supposed to take place at the command-line prompt in a linux terminal window.</p>
+</li>
+<li>
+<p>While you're at it, make a few other subfolders that you'll need:</p>
+<pre><code>$ mkdir module1/followalongs
+$ mkdir module1/studios
+$ mkdir module1/misc</code></pre>
+</li>
+<li>
+<p>You will create another folder just like this one for Modules 2, so you can copy it like so:</p>
+<pre><code>$ cp -r module1 module2</code></pre>
+<p>You should now see a new folder called <code>/module2/</code> which contains all the same stuff:
+$ ls
+module1 module2
+$ ls module2
+exercises follow_alongs misc studios</p>
+</li>
+<li>
+<p>Repeat step 5 for Modules 3-8. (Using <code>module3</code> ... <code>module8</code> in place of <code>module2</code>)</p>
+</li>
+<li>
+<p>Finally, now that you have created all of the folders for each module, let's also make folders for the Problem Sets.</p>
+<pre><code>$ mkdir pset1 pset2 pset3 pset4 pset5 pset6 pset7 pset8</code></pre>
+</li>
+</ol>
+<h4 id="graphical-display">Graphical Display</h4>
+<p>Within the CS50 IDE, you will see a graphical display (along the left of the IDE page) of the folders that you have created.  It should be similar to the figure below. </p>
+<p>The file folder icon :file_folder: represents a folder in the directory.  The open file folder icon :open_file_folder: is also a folder in the directory but is used to demonstrate what folders and/or files will be included in that folder. The page icon :page_facing_up: represents a program (file).  You will use the format of these folder and file names when completing these tasks. </p>
+<p><strong>Folder Format:</strong></p>
+<p>When you are in the CS50 IDE you will see that your &quot;home&quot; folder is named <code>~/workspace/</code> and in some cases <code>~/ide50/</code>. </p>
+<p>~/workspace/</p>
+<p>&nbsp;&nbsp;:open_file_folder: <strong><code>module1/</code></strong></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:open_file<em>folder: **</em><code>exercises/</code>_**</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:open_file<em>folder: **</em><code>exercise1/</code>_**</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: exercise1.c</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:open_file<em>folder: **</em><code>exercise2/</code>_**</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: exercise2.c</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:open_file<em>folder: **</em><code>followalongs/</code>_**        </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:open_file<em>folder: **</em><code>followalong/</code>_**</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: followalong.c</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:open_file<em>folder: **</em><code>secondfollowalong/</code>_**</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: secondfollowalong-0.c</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: secondfollowalong-1.c</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:open_file<em>folder: **</em><code>misc/</code>_**</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:open_file<em>folder: **</em><code>misc1/</code>_**</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: misc1.c</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:open_file<em>folder: **</em><code>studios/</code>_**</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:open_file<em>folder: **</em><code>studio1/</code>_**</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: studio1.c</p>
+<p>&nbsp;&nbsp;:file_folder: <strong><code>module2/</code></strong></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>...</strong></p>
+<p>&nbsp;&nbsp;:file_folder: <strong><code>module8/</code></strong></p>
+<p>&nbsp;&nbsp;:file_folder: <strong><code>pset1</code></strong></p>
+<p>&nbsp;&nbsp;:file_folder: <strong><code>pset2</code></strong></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>...</strong></p>
+<p>&nbsp;&nbsp;:file_folder: <strong><code>pset8</code></strong></p>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container-fluid">
+                <p class="text-muted">
+                    website generated with <a href="http://couscous.io" title="Markdown website generator">Couscous</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>

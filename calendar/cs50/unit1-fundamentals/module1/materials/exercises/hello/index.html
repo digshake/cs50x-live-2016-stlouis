@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>LaunchCode&#039;s CS50x - St. Louis</title>
+
+        <link rel="stylesheet" href="http://digshake.github.io/cs50x-live-2016-stlouis/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://digshake.github.io/cs50x-live-2016-stlouis/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://digshake.github.io/cs50x-live-2016-stlouis/css/highlight.dark.css">
+        <link rel="stylesheet" href="http://digshake.github.io/cs50x-live-2016-stlouis/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="http://digshake.github.io/cs50x-live-2016-stlouis/">
+                LaunchCode&#039;s CS50x - St. Louis
+            </a>
+
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                        <ul class="nav nav-pills nav-stacked">
+                                                            <li class="">
+                                    <a href="http://digshake.github.io/cs50x-live-2016-stlouis/calendar/">
+                                        Calendar
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/edit?usp=sharing">
+                                        Student Guide
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://digshake.github.io/cs50x-live-2016-stlouis/helpful-resources/">
+                                        Helpful Resources
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://digshake.github.io/cs50x-live-2016-stlouis/how-to-take-this-class/">
+                                        How To Take This Class
+                                    </a>
+                                </li>
+                                                    </ul>
+
+                    </nav>
+
+                
+                <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
+                    <h5 id="module-1">Module 1</h5>
+<p><a href="../../class1-prep#printing-getting-user-input">Go back to Class 1 Prep</a></p>
+<h1 id="exercise-hello">Exercise: Hello</h1>
+<p>Shall we have you write your first program? At this point you should have all of your module and pset folders created.  If not please refer to the <a href="../../../../../../../helpful-resources/CS50-IDE/file-management-resource.md" target="_blank">File Management Resource</a> in the CS50x Wiki.</p>
+<h3 id="create-the-folder">Create the Folder</h3>
+<p>In the terminal window, navigate to the <code>~/workspace/module1/exercises</code> folder </p>
+<p>If you are not sure where you are located, use the command <code>pwd</code> to list the directory you are at and if you are not in the <code>~/workspace/module1/exercises</code> folder use the command <code>cd</code> then hit enter, and type the command <code>cd ~/workspace/module1/exercises</code> to change directories.) </p>
+<pre><code>$ pwd
+/home/ubuntu/workspace/ (You will see something similar to this)
+$ cd ~/workspace/module1/exercises</code></pre>
+<p>(Incidentally, <code>~</code> is the name of your system's &quot;home&quot; directory)</p>
+<p>Now create a new folder called <code>hello</code>, and <code>cd</code> into this directory.</p>
+<pre><code>$ mkdir hello
+$ cd hello</code></pre>
+<h3 id="create-the-file">Create the File</h3>
+<p>You should now be inside of the  <code>~/workspace/module1/exercises/hello</code> folder, where you will make a new file named <code>hello.c</code>. The linux command to create a file is <code>touch</code>. Then verify that the file was created by using the command <code>ls</code> to list the contents of the current folder.</p>
+<pre><code>$ touch hello.c
+$ ls
+hello.c</code></pre>
+<p>You can now look at your directory on the upper left side of the CS50 IDE and  click the dropdown arrow next to the folders <code>module1</code>, <code>exercises</code> and then <code>hello</code>, to see the new file you just created. You can double click the <code>hello.c</code> file to start writing your program! (You will see a new tab with the name hello.c above the terminal window. This is where you will write your program) </p>
+<h3 id="start-writing-the-program">Start Writing the Program</h3>
+<p>First, checkout this quick <a href="https://youtu.be/HkQD6aw7oDc?t=101" target="_blank">video</a>, where Zamyla explains the steps as she writes the program. (We skipped ahead past the intro where she talks about getting set up, because our setup process is a little different).</p>
+<p>Proceed to write your first program by typing precisely these lines into the file:</p>
+<pre><code class="language-c">#include &lt;stdio.h&gt;
+
+int main(void)
+{
+    printf("hello, world\n");
+}</code></pre>
+<p>Notice how CS50 IDE adds &quot;syntax highlighting&quot; (i.e., color) as you type. Those colors aren’t actually saved inside of the file itself; they’re just added by CS50 IDE to make certain syntax stand out. Had you not saved the file as hello.c from the start, CS50 IDE wouldn’t know (per the filename’s extension) that you’re writing C code, in which case those colors would be absent.</p>
+<p>Do be sure that you type in this program just right, else you’re about to experience your first bug! In particular, capitalization matters, so don’t accidentally capitalize words (unless they’re between those two quotes). And don’t overlook that one semicolon. C, like most programming languages, is quite nitpicky!</p>
+<p>When done typing, select File &gt; Save (or hit command- or control-s), but don’t quit. Recall that the leading asterisk in the tab’s name should then disappear, indicating that the file has been saved. Click anywhere in the terminal window beneath your code, and be sure that you’re inside of <code>~/workspace/module1/exercises/hello</code> (Remember how? If not, type <code>cd</code> and then <code>Enter</code>, followed by <code>cd workspace/module1/exercises/hello</code> and then <code>Enter</code>.) Your prompt should be:</p>
+<pre><code>username@ide50:~/workspace/module1/exercises/hello $</code></pre>
+<p>Let’s confirm that <code>hello.c</code> is indeed where it should be. Type <code>ls</code>
+followed by <code>Enter</code>, and you should see <code>hello.c</code>. </p>
+<pre><code>$ ls
+hello.c</code></pre>
+<p>If not, no worries; you probably just missed a small step. Best to restart these past several steps or ask for help!</p>
+<p>Assuming you indeed see <code>hello.c</code>, let’s try to compile! Cross your fingers and then type</p>
+<pre><code class="language-c">$ make hello</code></pre>
+<p>at the prompt, followed by <code>Enter</code>. (Well, maybe don’t cross your fingers whilst typing.) To be clear, type only <code>hello</code> here, <strong>not</strong> <code>hello.c</code>. If all that you see is another, identical prompt, that means it worked! Your source code has been translated to object code (0s and 1s) that you can now execute. Type</p>
+<pre><code>$ ./hello</code></pre>
+<p>at your prompt, followed by <code>Enter</code>, and you should see the below:</p>
+<pre><code>hello, world</code></pre>
+<p>And if you type <code>ls</code> followed by <code>Enter</code>, you should see a new file, <code>hello</code>, alongside <code>hello.c</code>. The first of those files, <code>hello</code>, should have an asterisk after its name that, in this context, means it’s <strong>&quot;executable,&quot; a program that you can execute (i.e., run).</strong></p>
+<pre><code>$ ls
+hello* hello.c</code></pre>
+<p>If, though, upon running make, you instead see some error(s), it’s time to debug! (If the terminal window’s too small to see everything, click and drag its top border upward to increase its height.) If you see an error like expected declaration or something no less mysterious, odds are you made a <strong>syntax error (i.e., typo)</strong> by omitting some character or adding something in the wrong place. Scour your code for any differences vis-à-vis the template above. It’s easy to miss the slightest of things when learning to program, so do compare your code against ours character by character; odds are the mistake(s) will jump out! Anytime you make changes to your own code, just remember to re-save via <strong>File &gt; Save (or command- or control-s)</strong>, then re-click inside of the terminal window, and then re-type</p>
+<pre><code>$ make hello</code></pre>
+<p>at your prompt, followed by <code>Enter</code>. (Just be sure that you are inside of <code>~/workspace/module1/exercises/hello</code> within your terminal window, as your prompt will confirm or deny.) If you see no more errors, try running your program by typing</p>
+<pre><code>$ ./hello</code></pre>
+<p>at your prompt, followed by <code>Enter</code>! Hopefully you now see whatever you told printf to print?</p>
+<p>If not, reach out for help! Incidentally, if you find the terminal window too small for your tastes, know that you can open one in a bigger tab by clicking the circled plus (+) icon to the right of your <code>hello.c</code> tab.</p>
+<h3 id="congrats">Congrats!</h3>
+<p>You’ve begun to program! </p>
+<p>Incidentally, you've also (unknowingly) just completed a portion of Pset 1! Namely, you did the section called <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#hello_c" target="_blank">Hello C</a>. </p>
+<p>Let's copy this work into your <code>/pset1</code> directory, so you don't have to redo it later when you are working on the rest of the problem set. In your terminal, type</p>
+<pre><code>$ cp -r ~/workspace/module1/hello ~/workspace/pset1/hello</code></pre>
+<p>Then verify that this worked correctly by typing</p>
+<pre><code>$ ls ~/workspace/pset1
+hello/</code></pre>
+<p>You should see there is now a <code>hello/</code> directory inside <code>pset1/</code>.</p>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container-fluid">
+                <p class="text-muted">
+                    website generated with <a href="http://couscous.io" title="Markdown website generator">Couscous</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>

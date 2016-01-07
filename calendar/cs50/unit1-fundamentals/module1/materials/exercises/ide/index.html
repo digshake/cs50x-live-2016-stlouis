@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>LaunchCode&#039;s CS50x - St. Louis</title>
+
+        <link rel="stylesheet" href="http://digshake.github.io/cs50x-live-2016-stlouis/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://digshake.github.io/cs50x-live-2016-stlouis/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://digshake.github.io/cs50x-live-2016-stlouis/css/highlight.dark.css">
+        <link rel="stylesheet" href="http://digshake.github.io/cs50x-live-2016-stlouis/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="http://digshake.github.io/cs50x-live-2016-stlouis/">
+                LaunchCode&#039;s CS50x - St. Louis
+            </a>
+
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                        <ul class="nav nav-pills nav-stacked">
+                                                            <li class="">
+                                    <a href="http://digshake.github.io/cs50x-live-2016-stlouis/calendar/">
+                                        Calendar
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/edit?usp=sharing">
+                                        Student Guide
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://digshake.github.io/cs50x-live-2016-stlouis/helpful-resources/">
+                                        Helpful Resources
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://digshake.github.io/cs50x-live-2016-stlouis/how-to-take-this-class/">
+                                        How To Take This Class
+                                    </a>
+                                </li>
+                                                    </ul>
+
+                    </nav>
+
+                
+                <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
+                    <h5 id="module-1">Module 1</h5>
+<p><a href="../../class1-prep">Go back to Class 1 Prep</a></p>
+<h1 id="exercise-logging-into-the-ide">Exercise: Logging into the IDE</h1>
+<h4 id="getting-started">Getting Started</h4>
+<p>Recall that CS50 IDE is a web-based &quot;integrated development environment&quot; that allows you to program &quot;in the cloud,&quot; without installing any software locally. Underneath the hood is a popular operating system, Ubuntu Linux, that’s been &quot;containerized&quot; with open-source software called Docker, that allows multiple users (like you!) to share the operating system’s &quot;kernel&quot; (its nucleus, so to speak) and files, even while having files of their own. Indeed, CS50 IDE provides you with your very own &quot;workspace&quot; (i.e., storage space) in which you can save your own files and folders (aka directories). Anyhow, more on all that another time!</p>
+<h4 id="logging-in">Logging In</h4>
+<p>Head to cs50.io and log into CS50 IDE by using your edX username and password. Upon logging in for the very first time, you should be informed that CS50 IDE (aka Cloud9, the software that underlies CS50 IDE) is &quot;creating your workspace&quot; and &quot;creating your container,&quot; which might take a moment. (If you already have an account at c9.io, which is Cloud9’s own site, drop sysadmins@cs50.harvard.edu a note, and they will let you know how to &quot;link&quot; that account.)</p>
+<p>Once you see your workspace, which should resemble David Malan's from Week 1, close any tabs that might have been opened for you by default (e.g., Welcome and README.md). Then decide which &quot;theme&quot; you’d like. By default, CS50 IDE is configured with a theme called &quot;Cloud9 Day.&quot; If you’d prefer a darker theme, particularly at night, visit Support &gt; Welcome Page, which should open a Welcome tab, and then, within that tab, change Main Theme to Cloud9 Classic Dark Theme, and then close the tab. Feel free to poke around other menus as well to get a sense of CS50 IDE’s user interface (UI). No worries if you’re not sure what most of the menus do (yet!). If among those more comfortable or just curious, feel free to uncheck View &gt; Less Comfortable, which will reveal even more options.</p>
+<h4 id="updating">Updating</h4>
+<p>Toward the bottom of CS50 IDE’s UI is a &quot;terminal window&quot; (in a tab called Terminal), a command-line interface (CLI) that allows you to explore your workspace’s files and directories, compile code, run programs, and even install new software. You should find that its &quot;prompt&quot; looks like</p>
+<p>username@ide50:~/workspace $
+where username is your own (automatically assigned) username. Click inside of that terminal window and then type</p>
+<pre><code>update50</code></pre>
+<p>followed by Enter to ensure that your workspace is up-to-date. It should take just a few moments for any updates to complete. (Be sure not to close the tab or CS50 IDE itself until they do!)</p>
+<h4 id="done">Done!</h4>
+<p>Now you should be all set. The next few exercises will help you set up your workspace and write some code!</p>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container-fluid">
+                <p class="text-muted">
+                    website generated with <a href="http://couscous.io" title="Markdown website generator">Couscous</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>

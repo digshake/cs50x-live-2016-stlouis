@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>LaunchCode&#039;s CS50x - St. Louis</title>
+
+        <link rel="stylesheet" href="http://digshake.github.io/cs50x-live-2016-stlouis/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://digshake.github.io/cs50x-live-2016-stlouis/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://digshake.github.io/cs50x-live-2016-stlouis/css/highlight.dark.css">
+        <link rel="stylesheet" href="http://digshake.github.io/cs50x-live-2016-stlouis/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="http://digshake.github.io/cs50x-live-2016-stlouis/">
+                LaunchCode&#039;s CS50x - St. Louis
+            </a>
+
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                        <ul class="nav nav-pills nav-stacked">
+                                                            <li class="">
+                                    <a href="http://digshake.github.io/cs50x-live-2016-stlouis/calendar/">
+                                        Calendar
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/edit?usp=sharing">
+                                        Student Guide
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://digshake.github.io/cs50x-live-2016-stlouis/helpful-resources/">
+                                        Helpful Resources
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://digshake.github.io/cs50x-live-2016-stlouis/how-to-take-this-class/">
+                                        How To Take This Class
+                                    </a>
+                                </li>
+                                                    </ul>
+
+                    </nav>
+
+                
+                <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
+                    <h5><a href="../..">Module 1</a></h5>
+<h1 id="problem-set-1">Problem Set 1</h1>
+<h3 id="synopsis">Synopsis</h3>
+<p>In this problem set, you'll solve some problems in C using the concepts you'll learn throughout Module 1. There are three components to this problem set: <strong>Water</strong>, <strong>Mario</strong>, and <strong>Greedy</strong>.</p>
+<p>The Pset Spec which describes the assignment can be found
+<a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html" target="_blank">Here</a>.</p>
+<p>To review all information about the Problem Set, scroll down to the section titled <a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#getting_started" target="_blank">Getting Started</a>. You will have seen a lot of this already, but it may be helpful to review.</p>
+<h3 id="assignments">Assignments</h3>
+<p>The assignments of Problem Set 1 that you must do are:</p>
+<ul>
+<li><a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#smart_water" target="_blank">Problem Set 1: Water</a></li>
+<li><a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#itsa_mario" target="_blank">Problem Set 1: Mario</a></li>
+<li><a href="http://cdn.cs50.net/2015/fall/psets/1/pset1/pset1.html#time_for_change" target="_blank">Problem Set 1: Greedy</a></li>
+</ul>
+<h3 id="guidance">Guidance</h3>
+<h4 id="in-general-how-to-approach-a-problem-set">In General: How to approach a Problem Set</h4>
+<ul>
+<li>
+<p>Begin a pset by having ready at-hand, and focusing on, these 3 things:</p>
+<ul>
+<li>the problem set specification (“pset spec” or “pspec”)</li>
+<li>the lecture notes (you can find these on the class prep pages for the current Module)</li>
+<li>the example source code from the current Module (you can find this at the bottom of the Module home page under &quot;Helpful Links&quot;)</li>
+</ul>
+</li>
+<li>
+<p>The pset spec will link out to various videos. You may have already seen some of these during Class Prep. Regardless, these videos are always very relevant to the problem at hand and are probably worth a (re)watch.</p>
+</li>
+<li>
+<p>The psets usually have multiple assignments within them. Work on one at a time. (Ie, only read/watch items applicable to the one assignment you're currently working. Don't read/watch ahead.)</p>
+</li>
+<li>
+<p>Define a strategy (as in pseudocode, drawings, whatever) BEFORE starting to code anything.</p>
+</li>
+<li>
+<p>When ready to code, break the problem into the smallest pieces you can think of... then code a piece, test it, fix anything wrong; code the next piece, test it, fix it. Use printf() and the IDE's debugging tools like crazy!</p>
+</li>
+<li>If you begin working on one piece while another is not quite finished - remark out the unfinished code. This prevents errors from the unfinished code from looking like problems with the new code.</li>
+</ul>
+<h4 id="specific-guidance-on-pset-1">Specific Guidance on Pset 1</h4>
+<h5 id="water">Water:</h5>
+<p><em>Use the source, Luke! Use the source!</em><br>
+Check out the source code example called “adder.c” under
+<a href="http://cdn.cs50.net/2015/fall/lectures/1/w/src1w/" target="_blank">Week 1's Wednesday lecture source code examples</a>
+. With a few tweaks, might this be the droids - er, code - you're looking for???</p>
+<p>Remember: CS50's source code examples can take you a long way toward solving the pset problems!</p>
+<h5 id="mario">Mario:</h5>
+<ul>
+<li>Draw up a few examples for this assignment. Can you find a relationship between the height, line number (starting with 0!), number of spaces on each line, and number of hashes on each line?</li>
+<li>This is a good problem to begin practicing the art of breaking your code work into the smallest pieces possible! Don't try to write the entire program all at once before you try running it. Do just a little bit, and immediately run to make sure that part works. Then do a little bit more, and make sure it works. Rinse and repeat. For example:
+<ul>
+<li>Get your input working first;</li>
+<li>THEN make sure the input part continues looping until a valid number is entered;</li>
+<li>NEXT, check out that you can loop through lines (<code>printf()</code> is your friend! use it to varify that things are working properly);</li>
+<li>THEN, get your spaces working correctly (use a substitute character while you're testing! E.g. something like <code>"@"</code> instead of <code>" "</code>);</li>
+<li>FINALLY, get your hashes working correctly</li>
+</ul></li>
+<li>Code a little and test; repeat, repeat, repeat!</li>
+</ul>
+<p>Note: this is also a good problem for learning to create your own functions. Maybe, for example, you could turn the space- and hash-printing parts, say, into functions? Again, check out the example source code CS50 provides for possibilities!</p>
+<h5 id="greedy">Greedy:</h5>
+<ul>
+<li>Break this one up into an input piece, a quarters piece, a dimes piece, a nickels piece, and... do you need pennies? Make sure each individual bit of code works before moving on to the next!</li>
+<li>
+<p>The pset spec gives a code example for printing <code>0.01</code> to 50 decimal places:</p>
+<pre><code>float f = 0.01;
+printf("%.50f\n", f);</code></pre>
+<p>Do try this out for yourself and make sure you understand the inherent imprecision of the computer's representation of a <code>float</code> - this is very important to this problem! You WILL find some surprising results. Make sure your final program can handle those results - otherwise, don't be surprised when check50  gives you the wrong kind of emojis!</p>
+</li>
+</ul>
+<h3 id="how-to-submit">How To Submit</h3>
+<p>FILE NAMES: water.c, mario.c, greedy.c</p>
+<p>INSTRUCTIONS: Submit your assignments on Vocareum. After signing in, you will see each component as an assignment on the left. You must submit each component separately. Follow the instructions there, and make sure you name your files correctly!</p>
+<p>If you forget how to use Vocareum, please refer to the <a href="https://docs.google.com/document/d/19HIMxU_RtVV0PcGpuL71KmAoQh-KTgyPGpWWLcmwo58/edit?usp=sharing" target="_blank">Student Guide</a> section about Vocareum.</p>
+<p>You may also find it useful to review the <a href="https://github.com/Launch-Code/cs50x-live-2016/blob/master/calendar/module0/materials/problem-set/README.md" target="_blank">Problem Set Page Overview from Problem Set 0</a>.</p>
+<hr />
+<p>Congratulations on completing <a href="../..">Module 1</a>! Return to the <a href="../../../../..">Course Calendar</a> to see what's next.</p>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container-fluid">
+                <p class="text-muted">
+                    website generated with <a href="http://couscous.io" title="Markdown website generator">Couscous</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>

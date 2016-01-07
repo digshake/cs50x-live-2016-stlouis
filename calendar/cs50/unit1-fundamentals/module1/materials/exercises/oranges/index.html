@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>LaunchCode&#039;s CS50x - St. Louis</title>
+
+        <link rel="stylesheet" href="http://digshake.github.io/cs50x-live-2016-stlouis/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://digshake.github.io/cs50x-live-2016-stlouis/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://digshake.github.io/cs50x-live-2016-stlouis/css/highlight.dark.css">
+        <link rel="stylesheet" href="http://digshake.github.io/cs50x-live-2016-stlouis/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="http://digshake.github.io/cs50x-live-2016-stlouis/">
+                LaunchCode&#039;s CS50x - St. Louis
+            </a>
+
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                        <ul class="nav nav-pills nav-stacked">
+                                                            <li class="">
+                                    <a href="http://digshake.github.io/cs50x-live-2016-stlouis/calendar/">
+                                        Calendar
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="https://docs.google.com/document/d/1ac1Xpvnjh9-4C3Lb6J4CnodOwp54EBJAg4ooduG0gsw/edit?usp=sharing">
+                                        Student Guide
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://digshake.github.io/cs50x-live-2016-stlouis/helpful-resources/">
+                                        Helpful Resources
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://digshake.github.io/cs50x-live-2016-stlouis/how-to-take-this-class/">
+                                        How To Take This Class
+                                    </a>
+                                </li>
+                                                    </ul>
+
+                    </nav>
+
+                
+                <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
+                    <h5 id="module-1">Module 1</h5>
+<p><a href="../../class2-prep">Back to Class 2 Prep</a></p>
+<h1 id="exercise-how-many-oranges">Exercise: How many oranges?</h1>
+<p>In a file called <code>howmanyoranges.c</code> write a program that asks the user how many orange slices they want to eat, then prints out how many oranges the user should buy so they have enough slices. Assume there are 8 slices in each orange!</p>
+<p>A run of your program should look like this:</p>
+<pre><code>$ ./howmanyoranges
+How many orange slices do you want to eat? 15
+You should buy 2 oranges!</code></pre>
+<pre><code>$ ./howmanyoranges
+How many orange slices do you want to eat? 17
+You should buy 3 oranges!</code></pre>
+<p>How can we do this?  We need to buy enough oranges so that there are <em>at least</em> as many slices available as the user wants to eat this week. We can do this by dividing the number of slices they want by the number of slices in each orange (8). For example, <code>17.0 / 8</code> yields <code>2.215</code> oranges. But because we don't live in a world where one can buy fractional amounts of things (except <a href="../../studios/donuts">donuts</a> of course), we need to round up to the nearest next integer.</p>
+<p>To do this, we'll need to use the <code>ceil</code> function found <a href="https://reference.cs50.net/math.h/ceil" target="_blank">here</a>, in the <code>math.h</code> library.</p>
+<pre><code class="language-c">float x = ceil(8.2);
+// the value of x is now 9.0</code></pre>
+<p>Finally, don't forget to <code>#include</code> the <code>&lt;math.h&gt;</code> library at the top of your file!</p>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container-fluid">
+                <p class="text-muted">
+                    website generated with <a href="http://couscous.io" title="Markdown website generator">Couscous</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>

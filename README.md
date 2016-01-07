@@ -1,4 +1,3 @@
-
 #This is LaunchCode's CS50x St. Louis!
 
 Hello, and welcome to LaunchCode's CS50x St. Louis course! This course teaches the foundations of computer science and programming using world-class curriculum and mentored support. There's a lot to learn, but before you get started, you probably have a few questions.

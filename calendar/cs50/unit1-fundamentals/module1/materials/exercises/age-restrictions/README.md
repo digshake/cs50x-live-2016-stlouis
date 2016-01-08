@@ -30,9 +30,8 @@ Some day, kid...
 Obviously you are going to need a handful of `if` statements here. Think carefully about when your `if` statement
 needs an `else` branch, and when not.
 
-In case you're relatively new to Missouri's legal system, you can use the following guide to age restricted activities (each age range includes all of the activities above, in addition to the new allowances):
-* 0-15: You can't do much. 
-* 16-20: You can drive!
-* 21+: You can vote! You can drink!
-
-There are other restrictions based on age. Feel free to add your own, or develop your own age restriction system!
+In case you need a refresh, here are the rules:
+* under 16: You can't do much. 
+* 16 and over: You can drive! 
+* 18 and over: You can vote!
+* 21 and over: You can drink!

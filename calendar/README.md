@@ -26,7 +26,7 @@
 | Module 8 | | *Coming Soon.* In the last module you’ll learn yet another language, Javascript, which runs on the front-end in the user's browser, and allows you to manipulate your page’s HTML without talking to the server. You’ll also learn a technique called AJAX, which, using fancy work with functions, allows your page to communicate with the server and update itself without ever needing to refresh. Finally, you’ll learn about security on the web. In Problem Set 8, you will create a geographic news feed, a page on which local news headlines are overlayed on top of an interactive map of the US.|
 
 
-### Posteason: Skill Tracks
-|Module | Start Date | Overview |
-| :-------------: |:--------:|-------------|
-TBD | | *Coming Soon.* Additional learning tracks on Object-Oriented programming and continued Web Development.
+### Postseason: Skill Tracks
+|Module | Overview |
+| :-------------: |-------------|
+TBD | *Coming Soon.* Additional learning tracks on Object-Oriented programming and continued Web Development.

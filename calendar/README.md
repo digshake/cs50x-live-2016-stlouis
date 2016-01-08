@@ -34,14 +34,9 @@
 | Module 6 | TBA | *Coming Soon.* You are going to transition to Web Programming in this module. You will discover the inner-workings of HTTP and TCP/IP, internet protocols whose mysterious acronyms you are probably familar with. You will also be introduced to HTML, the markup language used to create web pages. Finally, you will learn about web servers (programs that serve up web pages). In Problem Set 6, you will write your own web server in C.|
 | Module 7 | TBA | *Coming Soon.* On the homestretch now! You begin your journey with an introduction to PHP, a programming language often used for back-end web programming, to create dynamically generated HTML content. You will also learn how to make your website store and retrieve data from a database using a language called SQL. Finally, you will learn how to use the MVC paradigm to write more eloquent and reusable code. In Problem Set 7, you will make a website that allows user to manage a finance portfolio, buying and selling (imaginary) stock in real companies. |
 | Module 8 | TBA | *Coming Soon.* In the last module you’ll learn yet another language, Javascript, which runs on the front-end in the user's browser, and allows you to manipulate your page’s HTML without talking to the server. You’ll also learn a technique called AJAX, which, using fancy work with functions, allows your page to communicate with the server and update itself without ever needing to refresh. Finally, you’ll learn about security on the web. In Problem Set 8, you will create a geographic news feed, a page on which local news headlines are overlayed on top of an interactive map of the US.|
->>>>>>> 41ae613c5ea18896a933785c3a9bdfac6e40b39e
 
 
-### Posteason: Skill Tracks
-|Module | Start Date | Overview |
-| :-------------: |:--------:|-------------|
-<<<<<<< HEAD
-TBD | | *Coming Soon.* Additional learning tracks on Object-Oriented programming and continued Web Development.
-=======
-TBD | TBA | *Coming Soon.* Additional learning tracks on Object-Oriented programming and continued Web Development.
->>>>>>> 41ae613c5ea18896a933785c3a9bdfac6e40b39e
+### Postseason: Skill Tracks
+|Module | Overview |
+| :-------------: |-------------|
+TBD | *Coming Soon.* Additional learning tracks on Object-Oriented programming and continued Web Development.

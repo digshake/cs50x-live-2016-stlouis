@@ -1,5 +1,5 @@
 ##### Module 1
-[Go back to Prep for Class 2](../../class2-prep)
+[Go back to Prep for Class 2](../../class2-prep#debugging)
 # Exercise: Debug
 
 This exercise doesn't involve writing any code. 

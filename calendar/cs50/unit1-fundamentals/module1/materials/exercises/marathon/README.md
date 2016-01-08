@@ -1,6 +1,6 @@
 ##### Module 1
 
-[Go back to Prep for Class 1](../../class1-prep)
+[Go back to Prep for Class 1](../../class1-prep#math-numeric-types)
 
 # Exercise: Marathon
 

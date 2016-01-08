@@ -1,6 +1,6 @@
 ##### Module 1
 
-[Go back to Prep for Class 2](../../class2-prep)
+[Go back to Prep for Class 2](../../class2-prep#conditions-booleans)
 
 # Exercise: Age Restrictions
 

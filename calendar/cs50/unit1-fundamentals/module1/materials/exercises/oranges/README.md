@@ -1,6 +1,6 @@
 ##### Module 1
 
-[Back to Class 2 Prep](../../class2-prep)
+[Back to Class 2 Prep](../../class2-prep#calling-library-functions)
 
 # Exercise: How many oranges?
 

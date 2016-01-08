@@ -1,5 +1,5 @@
 ##### Module 1 
-[Go back to Prep for Class 2](../../class2-prep)
+[Go back to Prep for Class 2](../../class2-prep#loops)
 # Exercise: Countdown
 
 In a file called `countdown.c` write a program that performs an epic countdown from a user-specified integer:

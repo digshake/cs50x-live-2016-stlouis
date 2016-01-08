@@ -1,6 +1,6 @@
 ##### Module 1
 
-[Go back to Class 1 Prep](../../class1-prep)
+[Go back to Class 1 Prep](../../class1-prep#getting-set-up)
 
 # Exercise: Logging into the IDE
 

@@ -51,7 +51,7 @@ Remember: CS50's source code examples can take you a long way toward solving the
 * This is a good problem to begin practicing the art of breaking your code work into the smallest pieces possible! Don't try to write the entire program all at once before you try running it. Do just a little bit, and immediately run to make sure that part works. Then do a little bit more, and make sure it works. Rinse and repeat. For example:
   - Get your input working first;
   - THEN make sure the input part continues looping until a valid number is entered;
-  - NEXT, check out that you can loop through lines (`printf()` is your friend! use it to varify that things are working properly);
+  - NEXT, check out that you can loop through lines (`printf()` is your friend! use it to verify that things are working properly);
   - THEN, get your spaces working correctly (use a substitute character while you're testing! E.g. something like `"@"` instead of `" "`);
   - FINALLY, get your hashes working correctly
 * Code a little and test; repeat, repeat, repeat!

@@ -107,7 +107,7 @@ Incidentally, you've also (unknowingly) just completed a portion of Pset 1! Name
 
 Let's copy this work into your `/pset1` directory, so you don't have to redo it later when you are working on the rest of the problem set. In your terminal, type
 ```
-$ cp -r ~/workspace/module1/hello ~/workspace/pset1/hello
+$ cp -r ~/workspace/module1/exercises/hello ~/workspace/pset1/hello
 ```
 
 Then verify that this worked correctly by typing

@@ -1,7 +1,7 @@
 
-#### LaunchCode CS50x St. Louis
+##### LaunchCode CS50x St. Louis
 
-## You're here for the party? We moved across the street.
+## Looking for the party? We moved across the street.
 
 The course website has moved. From now on, please go to:
 

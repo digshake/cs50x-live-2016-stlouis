@@ -5,7 +5,7 @@
 
 The course website has moved. From now on, please go to:
 
-education.launchcode.org/cs50x-stlouis
+[education.launchcode.org/cs50x-stlouis](https://education.launchcode.org/cs50x-stlouis)
 
 It's nice over there.
 
